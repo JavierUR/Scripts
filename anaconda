@@ -1,4 +1,5 @@
 #!/bin/bash
 
 unset PYTHONPATH
-
+echo "PYTHONPATH unset"
+source activate $1
